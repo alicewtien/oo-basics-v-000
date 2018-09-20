@@ -11,7 +11,9 @@ class Shoe
   def cobble(condition)
     condition = shoe.condition
     if condition == "old"
-    puts "Your shoe is as good as new!"
-    shoe.condition = "new"
+      puts "Your shoe is as good as new!"
+      shoe.condition = "new"
+    end
   end
+
 end
