@@ -13,7 +13,6 @@ class Shoe
     if shoe.condition == "old"
       shoe.condition = "new"
     end
-    shoe.condition
   end
 
 end
